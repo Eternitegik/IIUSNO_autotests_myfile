@@ -1,4 +1,5 @@
 import allure
+import pytest
 
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
@@ -15,6 +16,7 @@ class TestAsuno:
     @allure.title('Авторизация АСУНО')
     @allure.description('Проверка возможности авторизации')
     @allure.severity('blocker')
+    @pytest.mark.skip('Нет пользователей для авторизации')
     def test_asuno_Authorization(self, setup):
         setup.get(f'{Start_url}asuno')
         wait = WebDriverWait(setup, 15, 0.3)
