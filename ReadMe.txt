@@ -9,6 +9,8 @@
 # 3) allure serve results_test/                            Запуск сервера для отображения отчета в html
 # 4) allure generate results_test -o result_web --clean    Генерация html файлов для отображения отчетов
 
+# pip freeze > requirements.txt  команда для добавления связей в requirements.txt
+
 # Варианты критичности теста
 # @allure.severity('blocker, critical, normal, minor, trivial')
 
@@ -18,3 +20,4 @@
 # https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
 # https://github.com/Eternitegik/iiusno_autotest/settings/pages
 # https://eternitegik.github.io/iiusno_autotest/
+# https://www.youtube.com/watch?v=L2jMIJy0u90
