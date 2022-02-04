@@ -5,4 +5,4 @@ base_url = {
     'prod': 'https://moslight.mos.ru/'
 }
 
-Start_url = base_url['test']
+Start_url = base_url['dev']
